@@ -1,10 +1,14 @@
+import { AppRouter } from './router/AppRouter'
 import './App.css'
-
 function App() {
 
   return (
     <>
-      <h2>Ejercicio con context api</h2>
+    <div className='App'>
+      <header className='App-header'>
+        <AppRouter/>
+      </header>
+    </div>
     </>
   )
 }
